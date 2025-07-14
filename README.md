@@ -1,6 +1,6 @@
-# **Phishing Email Detection Using Machine Learning**
+# **Spam Email Detection **
 
-This project builds a phishing email detection system using machine learning techniques. It uses Natural Language Processing (NLP) for text vectorization and Random Forest classifier (or any other ML model) for classification. The goal is to detect whether an email is a phishing email or legitimate based on its content. <br> Author-Krish Gupta
+This project builds a phishing email detection system using machine learning techniques. It uses Natural Language Processing (NLP) for text vectorization and Random Forest classifier (or any other ML model) for classification. The goal is to detect whether an email is a spam email or legitimate based on its content.
 
 ---
 
@@ -16,9 +16,6 @@ This project builds a phishing email detection system using machine learning tec
   - [Step 4: Make Predictions](#step-4-make-predictions)
 - [How It Works](#how-it-works)
 - [How to Contribute](#how-to-contribute)
-- [License](#license)
-
----
 
 ## **Project Overview**
 
@@ -128,10 +125,10 @@ email_text = "Your account has been compromised. Click here to reset your passwo
 - Converts raw email content into numerical feature vectors using TF-IDF vectorization. This calculates the importance of each word in the email relative to other emails.
 
 ### **2. Model Training**
-- Trains a Random Forest model to classify emails as phishing or not based on text patterns.
+- Trains a Random Forest model to classify emails as spam or not based on text patterns.
 
 ### **3. Prediction**
-- For a new email, the model predicts whether it is phishing or legitimate using the patterns it learned during training.
+- For a new email, the model predicts whether it is spam or legitimate using the patterns it learned during training.
 
 ---
 
@@ -170,15 +167,3 @@ If the virtual environment becomes "locked" (you cannot install or uninstall pac
 Execution Policies:
 In PowerShell, you may encounter execution policy restrictions that prevent scripts from running. You need to set the execution policy appropriately (e.g., using Set-ExecutionPolicy Unrestricted -Scope Process) to allow the execution of Activate.ps1.
 
-## **License**
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
----
-
-### Explanation:
-1. **Markdown Formatting**: The code includes headers, lists, and code blocks (` ```bash ` and ` ```python `) for clarity.
-2. **Troubleshooting Virtual Environment**: Added steps to resolve issues with locked environments.
-3. **Ready for GitHub**: The content is now GitHub-ready and can be directly used as `README.md`.
-
-Let me know if you need further modifications!
